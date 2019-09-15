@@ -25,7 +25,7 @@ const projects = [
     role: "UI Developer",
     technologies: "CSS, LESS, Semantic HTML, Javascript",
     description:
-      "Luncher is a web application that allows schools to request funds from donors for their school lunch programs. A simple lamdiing page was built.",
+      "Luncher is a web application that allows schools to request funds from donors for their school lunch programs. A simple landing page was built.",
     projectImage: "https://source.unsplash.com/random",
     projectURL: "https://ladykerr.github.io/Luncher-App/index.html",
     githubRepo: "https://github.com/LadyKerr/Luncher-App"

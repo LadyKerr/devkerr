@@ -4,3 +4,13 @@
   font-family: "Stalemate", cursive;
   font-size: 10.5rem;
 }
+
+.social-icons {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-icons a {
+    color: #f50057;
+    font-size: 2rem;
+}
