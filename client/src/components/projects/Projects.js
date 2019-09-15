@@ -54,10 +54,10 @@ const Projects = (props) => {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="secondary">
                      View Live
                     </Button>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="secondary">
                       GitHub Repo
                     </Button>
                   </CardActions>

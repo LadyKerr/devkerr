@@ -4,6 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import FaceIcon from '@material-ui/icons/Face';
 import { makeStyles } from '@material-ui/core/styles';
+import "./navbar.css";
 
 const useStyles = makeStyles(theme => ({
     icon: {
@@ -16,10 +17,10 @@ const NavBar = () => {
 
     return (
         <div>
-            <AppBar position="relative">
+            <AppBar color="secondary" position="relative">
             <Toolbar>
             <FaceIcon className={classes.icon} />
-            <Typography variant="h6" color="inherit" noWrap>
+            <Typography id="nav-name" variant="h6" color="inherit" noWrap>
                 Lady Kerr
             </Typography>
             </Toolbar>
