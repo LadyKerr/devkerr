@@ -1,5 +1,6 @@
 import React from "react";
 import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
 
 function Copyright() {
@@ -23,8 +24,10 @@ const useStyles = makeStyles(theme => ({
 }))
 
 const Footer = () => {
+    const classes = useStyles();
+
     return (
-        <div>
+        <>
         <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
           Footer
@@ -34,7 +37,7 @@ const Footer = () => {
         </Typography>
         <Copyright />
       </footer>
-        </div>
+        </>
     )
 }
 
