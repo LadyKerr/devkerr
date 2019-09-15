@@ -47,11 +47,8 @@ const Projects = (props) => {
                     title="project"
                   />
                   <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant="h5" component="h5">
                       {project.title}
-                    </Typography>
-                    <Typography>
-                      {project.role}
                     </Typography>
                     <Typography>
                       {project.description}
