@@ -1,9 +1,9 @@
 import React from "react";
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
-import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import socialData from "../../data/social-data";
+import "./footer.css";
 
 function Copyright() {
   return (
@@ -32,13 +32,15 @@ const Footer = () => {
     return (
         <>
         <footer className={classes.footer}>
-         {/* {socials.map(icon => (
-             <Button>
-                {icon.icon}
-             </Button>
-         ))} */}
-        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Social Icons Here
+          <Typography variant="subtitle1" align="center" color="textSecondary" gutterBottom>
+         Connect with me on social media!
+        </Typography>
+        <Typography variant="subtitle1" align="center" color="textSecondary">
+          {socials.map(social => (
+              <div key={social.id} className="social-links">
+                <a target="_blank" rel="noopener noreferrer" href={social.profileURL}> {social.account} </a>
+              </div>
+          ))}
         </Typography>
         <Copyright />
       </footer>

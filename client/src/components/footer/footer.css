@@ -1,0 +1,11 @@
+.social-links {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #f50057;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #f50057;
+}
