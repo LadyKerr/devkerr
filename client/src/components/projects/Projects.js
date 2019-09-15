@@ -14,6 +14,7 @@ import Collapse from '@material-ui/core/Collapse';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import projectData from "../../data/project-data";
+import "./projects.css";
 
 const useStyles = makeStyles(theme => ({
   cardGrid: {
