@@ -27,7 +27,7 @@ const HeroSection = (props) => {
              Kedasha Kerr
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
-              Full-stack Software Engineer who enjoys working in teams that value collaboration, communication and professional integrity.
+              Full-stack Software Engineer
               <br />
               Tech Stack: React | Redux | Node.Js | Express.Js
             </Typography>

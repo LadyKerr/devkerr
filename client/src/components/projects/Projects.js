@@ -36,7 +36,6 @@ const Projects = (props) => {
     return(
         <>
         <Container className={classes.cardGrid} maxWidth="md">
-          {/* End hero unit */}
           <Grid container spacing={4}>
             {projects.map(project => (
               <Grid item key={project.id} xs={12} sm={6} md={4}>
