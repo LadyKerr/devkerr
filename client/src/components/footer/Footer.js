@@ -2,6 +2,7 @@ import React from "react";
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
+//import socialData from "../../data/social-data";
 
 function Copyright() {
   return (
@@ -25,15 +26,22 @@ const useStyles = makeStyles(theme => ({
 
 const Footer = () => {
     const classes = useStyles();
+    //const socials = socialData;
 
     return (
         <>
         <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
-          Footer
+         {/* {socials.map(icon => {
+             return (
+             <img key={icon.id}>
+                {icon.icon}
+             </img>
+             )
+         })} */}
         </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Something here to give the footer a purpose!
+          Social Icons Here
         </Typography>
         <Copyright />
       </footer>
