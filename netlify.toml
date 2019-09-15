@@ -1,0 +1,7 @@
+[Settings]
+ID = 'cab40243-91ff-4354-beb0-b2c52b92c4ed'
+
+[build]
+base = 'client/'
+publish = 'client/build'
+command = 'yarn build'
