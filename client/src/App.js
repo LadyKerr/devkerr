@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import NavBar from "./components/navbar/Navbar";
+import HeroSection from "./components/hero/HeroSection";
 
 function App() {
   return (
     <div className="App">
-     <h1>Hello</h1>
+     <NavBar />
+     <HeroSection />
     </div>
   );
 }
