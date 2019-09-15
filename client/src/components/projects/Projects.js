@@ -35,7 +35,7 @@ const Projects = (props) => {
 
     return(
         <>
-        <Container className={classes.cardGrid} maxWidth="md">
+        <Container id="projects" className={classes.cardGrid} maxWidth="md">
           <Grid container spacing={4}>
             {projects.map(project => (
               <Grid item key={project.id} xs={12} sm={6} md={4}>
@@ -54,10 +54,10 @@ const Projects = (props) => {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" color="secondary">
+                    <Button target="_blank" href={project.projectURL} size="small" color="secondary">
                      View Live
                     </Button>
-                    <Button size="small" color="secondary">
+                    <Button target="_blank" href={project.githubRepo} size="small" color="secondary">
                       GitHub Repo
                     </Button>
                   </CardActions>

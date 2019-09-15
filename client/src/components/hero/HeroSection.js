@@ -30,7 +30,7 @@ const HeroSection = (props) => {
             <Typography id="hero-name" component="h1" variant="h2" align="center" color="textPrimary">
              Kedasha Kerr
             </Typography>
-            <Typography variant="subtitle1" align="center" color="secondary" component="p">
+            <Typography variant="subtitle1" align="center" color="secondary">
           {socials.map(social => (
               <div key={social.id} className="social-icons">
                 <a target="_blank" rel="noopener noreferrer" href={social.profileURL} className="social-icons"> <FontAwesomeIcon icon={social.icon} /> </a>
@@ -45,12 +45,12 @@ const HeroSection = (props) => {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button onClick={() => props.history.push("/projects")} variant="contained" color="secondary">
+                  <Button href="#projects" variant="contained" color="secondary">
                    View Projects
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="outlined" color="secondary">
+                  <Button href="https://www.linkedin.com/in/kedashakerr/" target="_blank" variant="outlined" color="secondary">
                     Contact Me
                   </Button>
                 </Grid>

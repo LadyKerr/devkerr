@@ -35,7 +35,7 @@ const Footer = () => {
           <Typography variant="subtitle1" align="center" color="textSecondary" gutterBottom>
          Connect with me on social media!
         </Typography>
-        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
+        <Typography variant="subtitle1" align="center" color="textSecondary">
           {socials.map(social => (
               <div key={social.id} className="social-links">
                 <a target="_blank" rel="noopener noreferrer" href={social.profileURL}> {social.account} </a>
