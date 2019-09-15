@@ -6,8 +6,8 @@ const projects = [
     technologies: "React, React Hooks, Redux, Firebase, Full Calendar",
     description: "Future Hope School connects teachers in Ghana to retired teachers in North America. Our mission is to increase school retention rates in Ghana",
     projectImage: "https://source.unsplash.com/random",
-    projectURL: "",
-    githubRepo: ""
+    projectURL: "https://staging.futurehopeschool.com/",
+    githubRepo: "https://github.com/labs-future-hope/Future-Hope-Client/tree/Staging"
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const projects = [
     description: "Track Your Coin allows you to manage your expenses and gain control of your finances.",
     projectImage: "https://source.unsplash.com/random",
     projectURL: "",
-    githubRepo: ""
+    githubRepo: "https://github.com/Track-Your-Coins"
   },
   {
     id: 3,
