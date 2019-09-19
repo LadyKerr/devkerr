@@ -8,6 +8,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import "./navbar.css";
 
 const useStyles = makeStyles(theme => ({
+    root: {
+    flexGrow: 1,
+  },
     icon: {
     marginRight: theme.spacing(2),
   }
@@ -17,16 +20,13 @@ const NavBar = () => {
     const classes = useStyles();
 
     return (
-        <div>
+        <div className={classes.root}>
             <AppBar color="secondary" position="relative">
             <Toolbar>
             <FaceIcon className={classes.icon} />
             <Typography id="nav-name" variant="h6" color="inherit" noWrap>
                 Lady Kerr
             </Typography>
-            <Button variant="text" href="https://www.linkedin.com/in/kedashakerr/" target="_blank">
-                Learn More
-            </Button>
             </Toolbar>
         </AppBar>
     </div>
