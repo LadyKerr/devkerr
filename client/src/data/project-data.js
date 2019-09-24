@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     title: "Future Hope School",
     role: "Full-Stack Developer",
-    technologies: "React, React Hooks, Redux, Firebase, Full Calendar",
+    technologies: "React, React Hooks, Redux, Firebase, Cypress, Google Analytics",
     description:
       "Future Hope School connects teachers in Ghana to retired teachers in North America. Our mission is to increase school retention rates in Ghana",
     projectImage: futurehope,
@@ -17,12 +17,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "Track Your Coin",
+    title: "Track Your Coins",
     role: "Full-Stack Developer",
     technologies:
       "NodeJs, ExpressJs, Knex, Jest, BcryptJS, SQLite3, Postgres, Rect,React Hooks, Redux",
     description:
-      "Track Your Coin allows you to manage your expenses and gain control of your finances.",
+      "Track Your Coins allow you to manage your expenses and gain control of your finances.",
     projectImage: trackyourcoin,
     projectURL: "https://trackyourcoin.app/",
     githubRepo: "https://github.com/Track-Your-Coins"
