@@ -1,6 +1,6 @@
-import futurehope from "../../public/img/futurehope.jpg";
-import luncher from "../../public/img/luncher.jpg";
-import trackyourcoin from "../../public/img/trackyourcoin.jpg";
+import futurehope from "../img/futurehope.jpg";
+import luncher from "../img/luncher.jpg";
+import trackyourcoin from "../img/trackyourcoin.jpg";
 
 const projects = [
   {
