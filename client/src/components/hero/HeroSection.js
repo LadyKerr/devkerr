@@ -50,7 +50,7 @@ const HeroSection = (props) => {
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button href="https://www.linkedin.com/in/kedashakerr/" target="_blank" variant="outlined" color="secondary">
+                  <Button href="mailto:kedasha.kerr@gmail.com" target="_blank" variant="outlined" color="secondary">
                     Contact Me
                   </Button>
                 </Grid>
