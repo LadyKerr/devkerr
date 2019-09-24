@@ -26,9 +26,6 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     flexDirection: 'column',
   },
-  cardMedia: {
-    paddingTop: '56.25%',
-  },
   cardContent: {
     flexGrow: 1,
   },
@@ -59,8 +56,9 @@ const Projects = (props) => {
           <Grid container spacing={4}>
             {projects.map(project => (
               <Grid item key={project.id} xs={12} sm={6} md={4}>
-                <Card className={classes.card}>
+                <Card className={classes.card} raised={true}>
                   <CardMedia
+                    component="img"
                     className={classes.cardMedia}
                     image={project.projectImage}
                     title="project"
@@ -91,11 +89,11 @@ const Projects = (props) => {
                   </CardActions>
                   <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <CardContent>
-                    <Typography variant="h7" component="h7">Role:</Typography>
+                    <Typography variant="h6" component="h6">Role:</Typography>
                     <Typography paragraph>
                         {project.role}
                     </Typography>
-                    <Typography variant="h7" component="h7">Technologies Used:</Typography>
+                    <Typography variant="h6" component="h6">Technologies Used:</Typography>
                     <Typography paragraph>
                         {project.technologies}
                     </Typography>

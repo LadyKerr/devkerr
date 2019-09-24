@@ -24,7 +24,7 @@ const projects = [
     description:
       "Track Your Coin allows you to manage your expenses and gain control of your finances.",
     projectImage: trackyourcoin,
-    projectURL: "",
+    projectURL: "https://trackyourcoin.app/",
     githubRepo: "https://github.com/Track-Your-Coins"
   },
   {
